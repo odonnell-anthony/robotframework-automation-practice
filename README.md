@@ -31,6 +31,8 @@ A basic Robot Framework Project covering the following:
 
 * Far from perfect - was created quick and dirty
 
+* BDD Gherkin Style Test Suite added
+
 
 ### How do I get set up? ###
 
