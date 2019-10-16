@@ -133,11 +133,11 @@ Enter Password
 
 Provide DOB
     Wait Until Element Is Visible                   ${SIGNUP_DOB_DAY}
-    Select From List By Value                       ${SIGNUP_DOB_DAY}       ${DOB_DAY}
+    Select From List By Value                       ${SIGNUP_DOB_DAY_SELECT}       ${DOB_DAY}
     Wait Until Element Is Visible                   ${SIGNUP_DOB_MONTH}
-    Select From List By Value                       ${SIGNUP_DOB_MONTH}     ${DOB_MONTH}
+    Select From List By Value                       ${SIGNUP_DOB_MONTH_SELECT}     ${DOB_MONTH}
     Wait Until Element Is Visible                   ${SIGNUP_DOB_YEAR}
-    Select From List By Value                       ${SIGNUP_DOB_YEAR}      ${DOB_YEAR}
+    Select From List By Value                       ${SIGNUP_DOB_YEAR_SELECT}      ${DOB_YEAR}
 
 
 Provide Address 
