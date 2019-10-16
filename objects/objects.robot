@@ -24,9 +24,12 @@ ${SIGNUP_FEMALE_RADIO_BUTTON}               //*[@id='id_gender2']
 ${SIGNUP_FIRSTNAME}                         //*[@id='customer_firstname']
 ${SIGNUP_LASTNAME}                          //*[@id='customer_lastname']
 ${SIGNUP_PASSWORD}                          //*[@id='passwd']
-${SIGNUP_DOB_DAY}                           //*[@id = 'days' and @name = 'days']
-${SIGNUP_DOB_MONTH}                         //*[@id = 'months' and @name = 'months']
-${SIGNUP_DOB_YEAR}                          //*[@id = 'years' and @name = 'years']
+${SIGNUP_DOB_DAY}                           //*[@id='uniform-days']
+${SIGNUP_DOB_DAY_SELECT}                    //*[@id='uniform-days']/select
+${SIGNUP_DOB_MONTH}                         //*[@id='uniform-months']
+${SIGNUP_DOB_MONTH_SELECT}                  //*[@id='uniform-months']/select
+${SIGNUP_DOB_YEAR}                          //*[@id='uniform-years']
+${SIGNUP_DOB_YEAR_SELECT}                   //*[@id='uniform-years']/select
 ${SIGNUP_ADDRESS}                           //*[@id='address1']
 ${SIGNUP_CITY}                              //*[@id='city']
 ${SIGNUP_STATE}                             //*[@id = 'id_state' and @name = 'id_state']
